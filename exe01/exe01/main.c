@@ -37,6 +37,8 @@ int main(void)
 	{
 		printf("%d, ", *(combined_array+i));
 	}
+	
+	free(combined_array);
 }
 
 int power(int *x, int *y)
